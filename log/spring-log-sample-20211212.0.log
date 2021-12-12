@@ -1,0 +1,41 @@
+2021-12-12 01:51:55.127 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-12 01:51:55.171 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2021-12-12 01:51:55.198 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-12 01:51:55.206 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-12 01:52:41.676 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-12-12 01:52:41.676 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2021-12-12 01:52:41.676 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2021-12-12 01:52:41.676 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@14f0c1f
+2021-12-12 01:52:41.677 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@418c06e9
+2021-12-12 01:52:41.677 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-12-12 01:52:41.682 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/hello", parameters={}
+2021-12-12 01:52:41.685 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.springlogsample.controller.SampleController#hello()
+2021-12-12 01:52:41.710 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-12-12 01:52:41.710 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["hello"]
+2021-12-12 01:52:41.714 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-12-12 01:52:41.818 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+2021-12-12 01:52:41.820 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-12-12 01:52:41.821 [http-nio-8080-exec-2] DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2021-12-12 01:52:41.821 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2021-12-12 01:52:41.823 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2021-12-12 01:52:41.825 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-12-12 01:52:41.835 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-12-12 01:52:41.836 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Sun Dec 12 01:52:41 GMT+08:00 2021, status=404, error=Not Found, path=/favicon.ico}]
+2021-12-12 01:52:41.867 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2021-12-12 01:55:34.786 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/hello?holo=live", parameters={masked}
+2021-12-12 01:55:34.787 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.springlogsample.controller.SampleController#hello()
+2021-12-12 01:55:34.788 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-12-12 01:55:34.788 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["hello"]
+2021-12-12 01:55:34.789 [http-nio-8080-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-12-12 15:33:28.639 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-12 15:33:28.715 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2021-12-12 15:33:28.743 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-12 15:33:28.750 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-12 15:34:03.625 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-12 15:34:03.666 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2021-12-12 15:34:03.697 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-12 15:34:03.706 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-12 15:34:30.095 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-12 15:34:30.132 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2021-12-12 15:34:30.160 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-12-12 15:34:30.166 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
